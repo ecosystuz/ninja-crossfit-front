@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { TrainingGoal } from '~/composables/useTrainingGoal'
+import { vMaska } from 'maska/vue'
 
 interface LeadPayload {
   name: string
@@ -7,13 +8,14 @@ interface LeadPayload {
   age: number
   goal: Exclude<TrainingGoal, ''>
   days: string[]
+  locale: string
+  consent: true
   source: string
   createdAt: string
 }
 
 type ErrorKey = 'name' | 'phone' | 'age' | 'goal' | 'days' | 'consent'
 
-const runtimeConfig = useRuntimeConfig()
 const { locale, t } = useI18n()
 const selectedGoal = useTrainingGoal()
 const resultRef = ref<HTMLElement>()
@@ -25,6 +27,7 @@ const resultDescriptionKey = ref('')
 const formHintKey = ref('form.note')
 const lastLead = ref<LeadPayload>()
 const trainingDays = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'] as const
+const phoneMask = '+998 ## ### ## ##'
 
 const form = reactive({
   name: '',
@@ -53,6 +56,11 @@ watch(locale, () => {
 })
 
 const cleanPhone = (value: string) => value.replace(/[^\d+]/g, '').replace(/(?!^)\+/g, '')
+const preventAgeWheel = (event: WheelEvent) => {
+  const input = event.currentTarget as HTMLInputElement
+  if (document.activeElement === input) input.blur()
+}
+
 const isValidPhone = (value: string) => {
   const digits = value.replace(/\D/g, '')
   return digits.length >= 9 && digits.length <= 15
@@ -93,6 +101,8 @@ const createLead = (): LeadPayload => ({
   age: Number(form.age),
   goal: form.goal as Exclude<TrainingGoal, ''>,
   days: [...form.days],
+  locale: locale.value,
+  consent: true,
   source: 'ninja-crossfit-website',
   createdAt: new Date().toISOString()
 })
@@ -115,19 +125,10 @@ const showResult = async (lead: LeadPayload, sent: boolean) => {
 const submitForm = async () => {
   if (!validate()) return
   const lead = createLead()
-  const endpoint = String(runtimeConfig.public.formEndpoint || '')
-  if (!endpoint) {
-    await showResult(lead, false)
-    return
-  }
-  if (!/^https:\/\//i.test(endpoint)) {
-    formHintKey.value = 'form.invalidEndpoint'
-    return
-  }
 
   isSending.value = true
   try {
-    const response = await fetch(endpoint, {
+    const response = await fetch('/api/telegram', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(lead)
@@ -201,12 +202,12 @@ const resetForm = async () => {
             </div>
             <div class="field">
               <label for="phone">{{ $t('form.phone') }} <span>*</span></label>
-              <input id="phone" v-model="form.phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+998 90 123 45 67" maxlength="24" required :aria-invalid="Boolean(errors.phone)" @blur="form.phone = cleanPhone(form.phone.trim())" />
+              <input id="phone" v-model="form.phone" v-maska="{ mask: phoneMask, eager: true }" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+998 90 123 45 67" maxlength="17" required :aria-invalid="Boolean(errors.phone)" />
               <span id="phoneError" class="field-error">{{ errors.phone ? $t(errors.phone) : '' }}</span>
             </div>
             <div class="field field-full">
               <label for="age">{{ $t('form.age') }} <span>*</span></label>
-              <input id="age" v-model="form.age" name="age" type="number" inputmode="numeric" min="14" max="85" :placeholder="$t('form.agePlaceholder')" required :aria-invalid="Boolean(errors.age)" />
+              <input id="age" v-model="form.age" name="age" type="number" inputmode="numeric" min="14" max="85" step="1" :placeholder="$t('form.agePlaceholder')" required :aria-invalid="Boolean(errors.age)" @wheel="preventAgeWheel" />
               <span id="ageError" class="field-error">{{ errors.age ? $t(errors.age) : '' }}</span>
             </div>
           </div>

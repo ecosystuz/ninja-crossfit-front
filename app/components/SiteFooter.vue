@@ -22,7 +22,16 @@ const currentYear = new Date().getFullYear()
       <div class="footer-bottom">
         <span>© {{ currentYear }} NINJA CROSSFIT. {{ $t('footer.rights') }}</span>
         <span>{{ $t('footer.values') }}</span>
-        <span>{{ $t('footer.designed') }}</span>
+        <a
+          class="footer-credit"
+          href="https://heavy-works-200855.framer.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          :aria-label="$t('footer.creditAria')"
+        >
+          {{ $t('footer.madeBy') }} <strong>ECOSYST IT GROUP</strong>
+          <span aria-hidden="true">↗</span>
+        </a>
       </div>
     </div>
   </footer>

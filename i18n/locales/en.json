@@ -94,6 +94,7 @@
     "title1": "YOU CAN DO",
     "title2": "MORE.",
     "lead": "A big goal begins with the right movement. Come train, improve your technique and become stronger step by step.",
+    "galleryAria": "Photos of the coach during training",
     "profile": "COACH PROFILE",
     "profileAria": "Coach khayotov_x on Instagram",
     "cta": "TRAIN WITH THE COACH"
@@ -146,14 +147,14 @@
     "days": "PREFERRED TRAINING DAYS",
     "daysHint": "You can select several days",
     "consent": "I agree to the processing of the provided data so I can be contacted about my request.",
-    "submit": "PREPARE REQUEST",
+    "submit": "SEND REQUEST",
     "sending": "SENDING...",
-    "note": "Fields marked with an asterisk are required. You can send the completed request to us on Instagram.",
+    "note": "Fields marked with an asterisk are required. Your request will be sent to the coach on Telegram.",
     "invalidEndpoint": "Configure a secure HTTPS API address to send requests.",
     "prepared": "REQUEST READY!",
     "sent": "REQUEST SENT!",
     "preparedDescription": "Copy the request and send it to the club on Instagram. Automatic submission is not connected yet.",
-    "sentDescription": "Thank you! Your details have been sent. You can also contact us on Instagram.",
+    "sentDescription": "Thank you! Your request has been sent to the coach on Telegram. We will contact you soon.",
     "sendFailed": "The request could not be sent automatically. Copy it and send it to the club on Instagram.",
     "copied": "Request copied! Open Instagram and paste it into a message to the club.",
     "copyFailed": "Select and copy the request above manually, then send it to the club on Instagram.",
@@ -185,6 +186,7 @@
     "back": "Back to top",
     "rights": "ALL RIGHTS RESERVED.",
     "values": "DISCIPLINE / STRENGTH / PROGRESS",
-    "designed": "DESIGNED TO MOVE."
+    "madeBy": "MADE BY",
+    "creditAria": "Visit the Ecosyst IT Group website"
   }
 }

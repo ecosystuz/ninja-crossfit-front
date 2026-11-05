@@ -1,8 +1,29 @@
 export const useLandingEffects = () => {
   let observer: IntersectionObserver | undefined
+  let mutationObserver: MutationObserver | undefined
+  let revealScanFrame: number | undefined
   let onScroll: (() => void) | undefined
   let onPointerMove: ((event: PointerEvent) => void) | undefined
   let onPointerLeave: (() => void) | undefined
+
+  const registerRevealElements = () => {
+    const revealElements = Array.from(document.querySelectorAll<HTMLElement>('.reveal:not(.in-view)'))
+
+    if (!observer) {
+      revealElements.forEach(element => element.classList.add('in-view'))
+      return
+    }
+
+    revealElements.forEach(element => observer?.observe(element))
+  }
+
+  const scheduleRevealScan = () => {
+    if (revealScanFrame !== undefined) cancelAnimationFrame(revealScanFrame)
+    revealScanFrame = requestAnimationFrame(() => {
+      registerRevealElements()
+      revealScanFrame = undefined
+    })
+  }
 
   onMounted(() => {
     const header = document.querySelector<HTMLElement>('#siteHeader')
@@ -24,7 +45,6 @@ export const useLandingEffects = () => {
       }
     }
 
-    const revealElements = Array.from(document.querySelectorAll<HTMLElement>('.reveal'))
     if ('IntersectionObserver' in window) {
       observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
@@ -34,10 +54,14 @@ export const useLandingEffects = () => {
           }
         })
       }, { threshold: 0.1, rootMargin: '0px 0px -20px 0px' })
-      revealElements.forEach(element => observer?.observe(element))
-    } else {
-      revealElements.forEach(element => element.classList.add('in-view'))
     }
+    registerRevealElements()
+
+    mutationObserver = new MutationObserver(scheduleRevealScan)
+    mutationObserver.observe(document.querySelector('#__nuxt') ?? document.body, {
+      childList: true,
+      subtree: true
+    })
 
     const finePointer = window.matchMedia('(pointer:fine) and (prefers-reduced-motion:no-preference)')
     onPointerMove = (event: PointerEvent) => {
@@ -62,6 +86,8 @@ export const useLandingEffects = () => {
     if (onScroll) window.removeEventListener('scroll', onScroll)
     if (onPointerMove) document.removeEventListener('pointermove', onPointerMove)
     if (onPointerLeave) document.removeEventListener('pointerleave', onPointerLeave)
+    if (revealScanFrame !== undefined) cancelAnimationFrame(revealScanFrame)
+    mutationObserver?.disconnect()
     observer?.disconnect()
   })
 }

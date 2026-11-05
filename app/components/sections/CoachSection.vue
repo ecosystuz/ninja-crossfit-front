@@ -5,10 +5,19 @@
       <div class="coach-grid">
         <div class="coach-visual reveal">
           <div class="coach-graphic">
+            <div class="coach-photo-stack" role="img" :aria-label="$t('coach.galleryAria')">
+              <div class="coach-photo coach-photo-one" />
+              <div class="coach-photo coach-photo-two" />
+              <div class="coach-photo-shade" />
+            </div>
             <div class="coach-graphic-grid" />
-            <div class="coach-graphic-letter">N</div>
             <span class="coach-corner coach-corner-top">NC / 001</span>
             <span class="coach-corner coach-corner-bottom">TEAM NINJA</span>
+            <div class="coach-slider-status" aria-hidden="true">
+              <span>01</span>
+              <div class="coach-slide-track"><i /><i /></div>
+              <span>02</span>
+            </div>
           </div>
           <div class="coach-badge"><span class="coach-badge-star">✳</span><span>{{ $t('coach.badge') }}</span></div>
         </div>

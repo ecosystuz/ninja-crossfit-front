@@ -94,6 +94,7 @@
     "title1": "SEN KO'PROQ",
     "title2": "QILA OLASAN.",
     "lead": "Katta maqsad to'g'ri harakatdan boshlanadi. Mashg'ulotga kel, texnikani rivojlantir va qadamma-qadam kuchliroq bo'l.",
+    "galleryAria": "Murabbiyning mashg'ulot paytidagi suratlari",
     "profile": "MURABBIY PROFILI",
     "profileAria": "Murabbiy khayotov_x Instagram profili",
     "cta": "MURABBIYGA YOZILISH"
@@ -146,14 +147,14 @@
     "days": "QULAY MASHG'ULOT KUNLARI",
     "daysHint": "Bir nechta kunni tanlash mumkin",
     "consent": "Arizam bo'yicha bog'lanish uchun ko'rsatilgan ma'lumotlarni qayta ishlashga roziman.",
-    "submit": "ARIZANI TAYYORLASH",
+    "submit": "ARIZANI YUBORISH",
     "sending": "YUBORILMOQDA...",
-    "note": "Yulduzcha bilan belgilangan maydonlar majburiy. To'ldirilgan arizani Instagram orqali yuborish mumkin.",
+    "note": "Yulduzcha bilan belgilangan maydonlar majburiy. Ariza Telegram orqali murabbiyga yuboriladi.",
     "invalidEndpoint": "Arizalarni yuborish uchun xavfsiz HTTPS API manzilini sozlang.",
     "prepared": "ARIZA TAYYOR!",
     "sent": "ARIZA YUBORILDI!",
     "preparedDescription": "Ariza matnini nusxalab, klubning Instagram sahifasiga yuboring. Avtomatik yuborish hozircha ulanmagan.",
-    "sentDescription": "Rahmat! Ma'lumotlar yuborildi. Zarur bo'lsa, Instagram orqali biz bilan bog'laning.",
+    "sentDescription": "Rahmat! Ariza Telegram orqali murabbiyga yuborildi. Tez orada siz bilan bog'lanamiz.",
     "sendFailed": "Arizani avtomatik yuborib bo'lmadi. Matnni nusxalab, klubning Instagram sahifasiga yuboring.",
     "copied": "Ariza nusxalandi! Instagramni ochib, klubga xabar sifatida yuboring.",
     "copyFailed": "Yuqoridagi ariza matnini qo'lda belgilang va nusxalang, so'ng Instagram orqali yuboring.",
@@ -185,6 +186,7 @@
     "back": "Yuqoriga qaytish",
     "rights": "BARCHA HUQUQLAR HIMOYALANGAN.",
     "values": "INTIZOM / KUCH / TARAQQIYOT",
-    "designed": "HARAKAT UCHUN YARATILGAN."
+    "madeBy": "YARATGAN:",
+    "creditAria": "Ecosyst IT Group saytiga o'tish"
   }
 }
