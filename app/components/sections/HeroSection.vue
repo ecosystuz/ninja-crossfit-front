@@ -1,6 +1,18 @@
 <template>
   <section id="home" class="hero" aria-labelledby="heroTitle">
-    <div class="hero-photo" role="img" :aria-label="$t('hero.imageAlt')" />
+    <div class="hero-media" role="img" :aria-label="$t('hero.imageAlt')">
+      <video
+        class="hero-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        aria-hidden="true"
+      >
+        <source src="/videos/hero-training.mp4" type="video/mp4">
+      </video>
+    </div>
     <div class="hero-grid" aria-hidden="true" />
     <div class="hero-orbit hero-orbit-one" aria-hidden="true" />
     <span class="hero-backdrop-mark" aria-hidden="true">N</span>
