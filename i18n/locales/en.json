@@ -1,8 +1,9 @@
 {
   "meta": {
-    "title": "NINJA CROSSFIT — go beyond your limits",
-    "description": "NINJA CROSSFIT — functional training, strength, endurance and daily progress. Choose your goal and book a workout.",
-    "ogDescription": "Strength begins with a decision. Functional training with NINJA CROSSFIT."
+    "title": "Ninja CrossFit — CrossFit Gym in Bukhara",
+    "description": "Discover Ninja CrossFit in Bukhara, Uzbekistan. Functional fitness, strength and endurance training, weight loss and muscle-building workouts.",
+    "ogDescription": "CrossFit and functional fitness in Bukhara: strength, endurance, weight loss and muscle-building workouts.",
+    "imageAlt": "Training with a Ninja CrossFit coach in Bukhara"
   },
   "language": { "label": "Choose language" },
   "nav": {
@@ -47,8 +48,8 @@
     "title2": "WHERE CHARACTER",
     "title3": "IS BUILT.",
     "signature": "GO BEYOND YOUR LIMITS",
-    "lead": "Ninja CrossFit is where you challenge the person you were yesterday.",
-    "description": "We combine strength work, functional movement and endurance training. Everyone moves at their own pace, united by one philosophy — keep moving forward.",
+    "lead": "Ninja CrossFit is a fitness club in Bukhara where you challenge the person you were yesterday.",
+    "description": "Our functional fitness sessions combine strength work, movement and endurance training, with programs for weight loss and muscle building.",
     "link": "EXPLORE TRAINING PROGRAMS",
     "features": {
       "self": { "title": "WORK ON YOURSELF", "text": "Every workout is another step toward your goal." },
@@ -115,12 +116,13 @@
     "caption": "FIND US AND COME TRAIN",
     "title1": "WE ARE",
     "title2": "CLOSE.",
-    "intro": "We train at Mamont Fit — a convenient spot for everyone ready to grow stronger. Choose your map and build a route.",
+    "intro": "Ninja CrossFit training takes place at Mamont Fit in Bukhara. Choose your preferred map and build a route to the gym.",
     "addressLabel": "TRAINING LOCATION",
     "venue": "MAMONT FIT",
     "city": "BUKHARA, UZBEKISTAN",
     "description": "Open the map, plan your route and arrive a little before your first workout.",
     "coordinatesLabel": "COORDINATES",
+    "phoneLabel": "PHONE",
     "mapTitle": "Mamont Fit location map",
     "yandex": "YANDEX MAPS",
     "google": "GOOGLE MAPS"
@@ -184,6 +186,7 @@
   "footer": {
     "tagline": "YOUR STRENGTH STARTS HERE.",
     "instagram": "FOLLOW US ON INSTAGRAM",
+    "phoneAria": "Call Ninja CrossFit",
     "back": "Back to top",
     "rights": "ALL RIGHTS RESERVED.",
     "values": "DISCIPLINE / STRENGTH / PROGRESS",

@@ -1,8 +1,9 @@
 {
   "meta": {
-    "title": "NINJA CROSSFIT — imkoniyatlaringdan oshib o't",
-    "description": "NINJA CROSSFIT — funksional mashg'ulotlar, kuch, chidamlilik va o'z ustingda ishlash. Maqsadingni tanla va mashg'ulotga yozil.",
-    "ogDescription": "Kuch qarordan boshlanadi. NINJA CROSSFIT bilan funksional mashg'ulotlar."
+    "title": "Ninja CrossFit — Buxoroda krossfit va fitnes",
+    "description": "Ninja CrossFit — Buxoro shahridagi krossfit va funksional mashg‘ulotlar. Kuch, chidamlilik, ozish va mushak massasini oshirish uchun treninglar.",
+    "ogDescription": "Buxoroda krossfit va funksional mashg‘ulotlar: kuch, chidamlilik, ozish va mushak massasini oshirish.",
+    "imageAlt": "Buxorodagi Ninja CrossFit murabbiyi bilan mashg‘ulot"
   },
   "language": { "label": "Tilni tanlash" },
   "nav": {
@@ -47,8 +48,8 @@
     "title2": "XARAKTER",
     "title3": "YARALADI.",
     "signature": "IMKONIYATLARINGDAN OSHIB O'T",
-    "lead": "Ninja CrossFit — kechagi o'zingga qarshi chiqadigan makon.",
-    "description": "Biz kuch mashqlari, funksional harakatlar va chidamlilik ustidagi ishni birlashtiramiz. Har kimning sur'ati har xil, falsafasi esa bitta — oldinga yurish.",
+    "lead": "Ninja CrossFit Buxoro — kechagi o‘zingga qarshi chiqadigan fitnes makoni.",
+    "description": "Funksional mashg‘ulotlarda kuch mashqlari, harakat va chidamlilik ustidagi ishni birlashtiramiz. Dasturlar ozish va mushak massasini oshirish maqsadlariga moslashtiriladi.",
     "link": "YO'NALISHLARNI KO'RISH",
     "features": {
       "self": { "title": "O'ZING USTINGDA ISHLA", "text": "Har bir mashg'ulot — maqsading sari navbatdagi qadam." },
@@ -115,12 +116,13 @@
     "caption": "BIZNI TOP VA MASHG'ULOTGA KEL",
     "title1": "BIZ",
     "title2": "YAQINMIZ.",
-    "intro": "Biz Mamont Fit'da mashq qilamiz — kuchliroq bo'lishga tayyorlar uchun qulay joy. Xaritani tanla va yo'nalish tuz.",
+    "intro": "Ninja CrossFit mashg‘ulotlari Buxorodagi Mamont Fit’da o‘tkaziladi. Xaritani tanlang va mashg‘ulot joyiga yo‘nalish tuzing.",
     "addressLabel": "MASHG'ULOT MANZILI",
     "venue": "MAMONT FIT",
     "city": "BUXORO, O'ZBEKISTON",
     "description": "Xaritani och, yo'nalish tuz va birinchi mashg'ulotdan biroz oldinroq kel.",
     "coordinatesLabel": "KOORDINATALAR",
+    "phoneLabel": "TELEFON",
     "mapTitle": "Mamont Fit joylashuv xaritasi",
     "yandex": "YANDEX XARITALAR",
     "google": "GOOGLE MAPS"
@@ -184,6 +186,7 @@
   "footer": {
     "tagline": "SENING KUCHING SHU YERDAN BOSHLANADI.",
     "instagram": "BIZ INSTAGRAMDA",
+    "phoneAria": "Ninja CrossFit klubiga qo‘ng‘iroq qilish",
     "back": "Yuqoriga qaytish",
     "rights": "BARCHA HUQUQLAR HIMOYALANGAN.",
     "values": "INTIZOM / KUCH / TARAQQIYOT",

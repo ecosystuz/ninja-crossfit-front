@@ -42,13 +42,15 @@ const mapEmbedUrl = 'https://yandex.uz/map-widget/v1/?ll=64.455411%2C39.759678&z
           <div>
             <span class="location-kicker">{{ $t('location.addressLabel') }}</span>
             <h3>{{ $t('location.venue') }}</h3>
-            <p class="location-city">{{ $t('location.city') }}</p>
+            <address class="location-city">{{ $t('location.city') }}</address>
             <p class="location-description">{{ $t('location.description') }}</p>
           </div>
 
           <div class="location-details">
             <span>{{ $t('location.coordinatesLabel') }}</span>
             <strong>39.758458, 64.456707</strong>
+            <span class="location-phone-label">{{ $t('location.phoneLabel') }}</span>
+            <a class="location-phone" href="tel:+998934706777">+998 93 470-67-77</a>
           </div>
 
           <div class="location-actions">

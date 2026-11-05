@@ -3,6 +3,16 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/i18n'],
   css: ['~/assets/css/main.css'],
+  routeRules: {
+    '/ru': { redirect: { to: '/', statusCode: 301 } },
+    '/ru/': { redirect: { to: '/', statusCode: 301 } },
+    '/images/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
+    '/icons/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
+    '/videos/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
+    '/audio/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
+    '/sitemap.xml': { headers: { 'cache-control': 'public, max-age=3600' } },
+    '/robots.txt': { headers: { 'cache-control': 'public, max-age=3600' } }
+  },
   i18n: {
     defaultLocale: 'ru',
     strategy: 'prefix_except_default',
@@ -20,16 +30,8 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: 'ru' },
-      title: 'NINJA CROSSFIT — выходи за свои пределы',
       meta: [
-        { name: 'theme-color', content: '#090a09' },
-        {
-          name: 'description',
-          content: 'NINJA CROSSFIT — функциональные тренировки, сила, выносливость и работа над собой. Выбери цель и запишись на тренировку.'
-        },
-        { property: 'og:title', content: 'NINJA CROSSFIT — выходи за свои пределы' },
-        { property: 'og:description', content: 'Сила начинается с решения. Функциональные тренировки с NINJA CROSSFIT.' },
-        { property: 'og:type', content: 'website' }
+        { name: 'theme-color', content: '#090a09' }
       ],
       link: [
         { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' },

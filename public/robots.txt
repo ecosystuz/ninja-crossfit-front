@@ -1,2 +1,5 @@
-User-Agent: *
-Disallow:
+User-agent: *
+Allow: /
+
+Host: ninja-crossfit.uz
+Sitemap: https://ninja-crossfit.uz/sitemap.xml

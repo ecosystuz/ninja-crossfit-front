@@ -7,7 +7,7 @@
         muted
         loop
         playsinline
-        preload="auto"
+        preload="metadata"
         aria-hidden="true"
       >
         <source src="/videos/hero-training.mp4" type="video/mp4">

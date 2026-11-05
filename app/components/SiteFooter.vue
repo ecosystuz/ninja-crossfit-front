@@ -14,6 +14,7 @@ const currentYear = new Date().getFullYear()
         </div>
         <div class="footer-social">
           <span>{{ $t('footer.instagram') }}</span>
+          <a href="tel:+998934706777" :aria-label="$t('footer.phoneAria')">+998 93 470-67-77 <UiIcon name="arrow-up-right" /></a>
           <a href="https://www.instagram.com/ninjacrossfit1/" target="_blank" rel="noopener noreferrer">@NINJACROSSFIT1 <UiIcon name="arrow-up-right" /></a>
           <a href="https://www.instagram.com/khayotov_x/" target="_blank" rel="noopener noreferrer">@KHAYOTOV_X <UiIcon name="arrow-up-right" /></a>
         </div>
