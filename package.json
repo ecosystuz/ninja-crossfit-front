@@ -5,6 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "deploy:cloudflare": "npm run build && wrangler deploy --config .output/server/wrangler.json",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -16,6 +17,7 @@
     "vue-router": "^5.4.0"
   },
   "devDependencies": {
-    "@nuxtjs/i18n": "^10.6.0"
+    "@nuxtjs/i18n": "^10.6.0",
+    "wrangler": "^4.0.0"
   }
 }

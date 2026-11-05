@@ -3,6 +3,20 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/i18n'],
   css: ['~/assets/css/main.css'],
+  nitro: {
+    preset: 'cloudflare_module',
+    cloudflare: {
+      deployConfig: true,
+      wrangler: {
+        name: process.env.CLOUDFLARE_WORKER_NAME || 'ninja-crossfit-front',
+        compatibility_date: '2025-07-15',
+        compatibility_flags: ['nodejs_compat'],
+        assets: {
+          run_worker_first: false
+        }
+      }
+    }
+  },
   routeRules: {
     '/ru': { redirect: { to: '/', statusCode: 301 } },
     '/ru/': { redirect: { to: '/', statusCode: 301 } },
@@ -10,8 +24,8 @@ export default defineNuxtConfig({
     '/icons/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
     '/videos/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
     '/audio/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
-    '/sitemap.xml': { headers: { 'cache-control': 'public, max-age=3600' } },
-    '/robots.txt': { headers: { 'cache-control': 'public, max-age=3600' } }
+    '/sitemap.xml': { headers: { 'cache-control': 'public, max-age=0, must-revalidate' } },
+    '/robots.txt': { headers: { 'cache-control': 'public, max-age=0, must-revalidate' } }
   },
   i18n: {
     defaultLocale: 'ru',
