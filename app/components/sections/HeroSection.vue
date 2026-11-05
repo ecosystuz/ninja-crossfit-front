@@ -21,13 +21,13 @@
       <h1 id="heroTitle" class="hero-title hero-enter">{{ $t('hero.title1') }}<br><span class="outlined">{{ $t('hero.title2') }}</span><br><span class="accent-text">{{ $t('hero.title3') }}<span class="hero-period">.</span></span></h1>
       <p class="hero-description hero-enter">{{ $t('hero.description') }}</p>
       <div class="hero-buttons hero-enter">
-        <a class="button button-accent button-large" href="#apply">{{ $t('hero.apply') }} <span class="arrow-badge" aria-hidden="true">↗</span></a>
-        <a class="text-link" href="#about">{{ $t('hero.learnMore') }} <span aria-hidden="true">↗</span></a>
+        <a class="button button-accent button-large" href="#apply">{{ $t('hero.apply') }} <span class="arrow-badge" aria-hidden="true"><UiIcon name="arrow-up-right" /></span></a>
+        <a class="text-link" href="#about">{{ $t('hero.learnMore') }} <UiIcon name="arrow-up-right" /></a>
       </div>
     </div>
     <div class="hero-bottom container">
-      <span class="hero-bottom-note"><span class="square-icon">✦</span> {{ $t('hero.note') }}</span>
-      <a class="scroll-down" href="#about"><span>{{ $t('hero.scroll') }}</span><span class="down-circle" aria-hidden="true">↓</span></a>
+      <span class="hero-bottom-note"><UiIcon name="asterisk" class="square-icon" /> {{ $t('hero.note') }}</span>
+      <a class="scroll-down" href="#about"><span>{{ $t('hero.scroll') }}</span><span class="down-circle" aria-hidden="true"><UiIcon name="arrow-down-bold" /></span></a>
     </div>
     <span class="hero-side-label" aria-hidden="true">{{ $t('hero.side') }}</span>
   </section>

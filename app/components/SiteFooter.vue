@@ -14,10 +14,10 @@ const currentYear = new Date().getFullYear()
         </div>
         <div class="footer-social">
           <span>{{ $t('footer.instagram') }}</span>
-          <a href="https://www.instagram.com/ninjacrossfit1/" target="_blank" rel="noopener noreferrer">@NINJACROSSFIT1 <span>↗</span></a>
-          <a href="https://www.instagram.com/khayotov_x/" target="_blank" rel="noopener noreferrer">@KHAYOTOV_X <span>↗</span></a>
+          <a href="https://www.instagram.com/ninjacrossfit1/" target="_blank" rel="noopener noreferrer">@NINJACROSSFIT1 <UiIcon name="arrow-up-right" /></a>
+          <a href="https://www.instagram.com/khayotov_x/" target="_blank" rel="noopener noreferrer">@KHAYOTOV_X <UiIcon name="arrow-up-right" /></a>
         </div>
-        <a class="footer-back" href="#home" :aria-label="$t('footer.back')">↑</a>
+        <a class="footer-back" href="#home" :aria-label="$t('footer.back')"><UiIcon name="arrow-down-bold" class="icon-rotate-180" /></a>
       </div>
       <div class="footer-bottom">
         <span>© {{ currentYear }} NINJA CROSSFIT. {{ $t('footer.rights') }}</span>
@@ -30,7 +30,7 @@ const currentYear = new Date().getFullYear()
           :aria-label="$t('footer.creditAria')"
         >
           {{ $t('footer.madeBy') }} <strong>ECOSYST IT GROUP</strong>
-          <span aria-hidden="true">↗</span>
+          <UiIcon name="arrow-up-right" />
         </a>
       </div>
     </div>

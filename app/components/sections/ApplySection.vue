@@ -189,7 +189,7 @@ const resetForm = async () => {
         <span class="section-label"><i /> {{ $t('apply.label') }}</span>
         <h2 id="applyTitle" class="display-title">{{ $t('apply.title1') }}<br><em>{{ $t('apply.title2') }}</em></h2>
         <p>{{ $t('apply.intro') }}</p>
-        <div class="apply-side-art" aria-hidden="true"><span>✳</span><span>{{ $t('apply.art') }}</span></div>
+        <div class="apply-side-art" aria-hidden="true"><UiIcon name="asterisk" /><span>{{ $t('apply.art') }}</span></div>
       </div>
       <div class="form-shell reveal delay-1">
         <div class="form-topline"><span>{{ $t('form.title') }}</span><span>NC — 001 / 2026</span></div>
@@ -216,11 +216,11 @@ const resetForm = async () => {
             <div class="goal-grid">
               <label class="goal-card">
                 <input v-model="form.goal" type="radio" name="goal" value="weight-loss" required>
-                <span class="goal-icon" aria-hidden="true">↘</span><span class="goal-title">{{ $t('form.weightTitle') }}</span><span class="goal-subtitle">{{ $t('form.weightSubtitle') }}</span><span class="goal-check" aria-hidden="true">✓</span>
+                <UiIcon name="arrow-up-right" class="goal-icon icon-rotate-90" /><span class="goal-title">{{ $t('form.weightTitle') }}</span><span class="goal-subtitle">{{ $t('form.weightSubtitle') }}</span><span class="goal-check" aria-hidden="true" />
               </label>
               <label class="goal-card">
                 <input v-model="form.goal" type="radio" name="goal" value="muscle-gain" required>
-                <span class="goal-icon" aria-hidden="true">↗</span><span class="goal-title">{{ $t('form.massTitle') }}</span><span class="goal-subtitle">{{ $t('form.massSubtitle') }}</span><span class="goal-check" aria-hidden="true">✓</span>
+                <UiIcon name="arrow-up-right" class="goal-icon" /><span class="goal-title">{{ $t('form.massTitle') }}</span><span class="goal-subtitle">{{ $t('form.massSubtitle') }}</span><span class="goal-check" aria-hidden="true" />
               </label>
             </div>
             <span id="goalError" class="field-error">{{ errors.goal ? $t(errors.goal) : '' }}</span>
@@ -237,19 +237,19 @@ const resetForm = async () => {
           </fieldset>
           <label class="consent"><input id="consent" v-model="form.consent" type="checkbox" name="consent" required><span>{{ $t('form.consent') }}</span></label>
           <span id="consentError" class="field-error">{{ errors.consent ? $t(errors.consent) : '' }}</span>
-          <button id="submitBtn" class="button button-accent form-submit" type="submit" :disabled="isSending">{{ $t(isSending ? 'form.sending' : 'form.submit') }} <span v-if="!isSending">↗</span></button>
+          <button id="submitBtn" class="button button-accent form-submit" type="submit" :disabled="isSending">{{ $t(isSending ? 'form.sending' : 'form.submit') }} <UiIcon v-if="!isSending" name="arrow-up-right" /></button>
           <p id="formHint" class="form-note">{{ $t(formHintKey) }}</p>
         </form>
         <div v-else ref="resultRef" class="form-result" role="status" aria-live="polite">
-          <div class="result-icon" aria-hidden="true">✓</div>
+          <div class="result-icon" aria-hidden="true" />
           <h3>{{ $t(wasSent ? 'form.sent' : 'form.prepared') }}</h3>
           <p>{{ $t(resultDescriptionKey) }}</p>
           <div class="result-preview">{{ preparedMessage }}</div>
           <div class="result-actions">
-            <button v-if="!wasSent" type="button" class="button button-accent" @click="copyApplication">{{ $t('form.copy') }} <span>↗</span></button>
-            <a class="button button-outline button-result" href="https://ig.me/m/ninjacrossfit1" target="_blank" rel="noopener noreferrer">{{ $t('form.instagram') }} <span>↗</span></a>
+            <button v-if="!wasSent" type="button" class="button button-accent" @click="copyApplication">{{ $t('form.copy') }} <UiIcon name="arrow-up-right" /></button>
+            <a class="button button-outline button-result" href="https://ig.me/m/ninjacrossfit1" target="_blank" rel="noopener noreferrer">{{ $t('form.instagram') }} <UiIcon name="arrow-up-right" /></a>
           </div>
-          <button class="reset-link" type="button" @click="resetForm">{{ $t('form.reset') }} ↗</button>
+          <button class="reset-link" type="button" @click="resetForm">{{ $t('form.reset') }} <UiIcon name="arrow-up-right" /></button>
         </div>
       </div>
     </div>

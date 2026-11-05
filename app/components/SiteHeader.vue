@@ -64,7 +64,7 @@ onBeforeUnmount(() => {
             {{ code.toUpperCase() }}
           </button>
         </div>
-        <a class="button button-accent button-sm desktop-cta" href="#apply">{{ $t('nav.start') }} <span aria-hidden="true">↗</span></a>
+        <a class="button button-accent button-sm desktop-cta" href="#apply">{{ $t('nav.start') }} <UiIcon name="arrow-up-right" /></a>
         <button
           id="menuToggle"
           class="menu-toggle"
@@ -81,12 +81,12 @@ onBeforeUnmount(() => {
       </div>
     </div>
     <nav id="mobileMenu" class="mobile-menu" :aria-label="$t('nav.mobileNavigation')" :hidden="!isMenuOpen">
-      <a href="#about" @click="closeMenu">{{ $t('nav.philosophy') }} <span>↗</span></a>
-      <a href="#programs" @click="closeMenu">{{ $t('nav.training') }} <span>↗</span></a>
-      <a href="#coach" @click="closeMenu">{{ $t('nav.coach') }} <span>↗</span></a>
-      <a href="#location" @click="closeMenu">{{ $t('nav.location') }} <span>↗</span></a>
-      <a href="#contact" @click="closeMenu">{{ $t('nav.contacts') }} <span>↗</span></a>
-      <a class="mobile-menu-cta" href="#apply" @click="closeMenu">{{ $t('nav.apply') }} <span>↗</span></a>
+      <a href="#about" @click="closeMenu">{{ $t('nav.philosophy') }} <UiIcon name="arrow-up-right" /></a>
+      <a href="#programs" @click="closeMenu">{{ $t('nav.training') }} <UiIcon name="arrow-up-right" /></a>
+      <a href="#coach" @click="closeMenu">{{ $t('nav.coach') }} <UiIcon name="arrow-up-right" /></a>
+      <a href="#location" @click="closeMenu">{{ $t('nav.location') }} <UiIcon name="arrow-up-right" /></a>
+      <a href="#contact" @click="closeMenu">{{ $t('nav.contacts') }} <UiIcon name="arrow-up-right" /></a>
+      <a class="mobile-menu-cta" href="#apply" @click="closeMenu">{{ $t('nav.apply') }} <UiIcon name="arrow-up-right" /></a>
     </nav>
   </header>
 </template>

@@ -21,12 +21,12 @@ const chooseGoal = (goal: TrainingGoal) => {
           <div class="program-photo photo-cut" />
           <div class="program-shade" />
           <div class="program-card-inner">
-            <div class="card-head"><span>01 / {{ $t('programs.goal') }}</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+            <div class="card-head"><span>01 / {{ $t('programs.goal') }}</span><span class="card-arrow" aria-hidden="true"><UiIcon name="arrow-up-right" /></span></div>
             <div class="card-bottom">
               <span class="card-mini-label">{{ $t('programs.weight.label') }}</span>
               <h3>{{ $t('programs.weight.title') }}<span>.</span></h3>
               <p>{{ $t('programs.weight.description') }}</p>
-              <a href="#apply" data-goal="weight-loss" class="card-action" @click="chooseGoal('weight-loss')">{{ $t('programs.choose') }} <span>↗</span></a>
+              <a href="#apply" data-goal="weight-loss" class="card-action" @click="chooseGoal('weight-loss')">{{ $t('programs.choose') }} <UiIcon name="arrow-up-right" /></a>
             </div>
           </div>
         </article>
@@ -34,12 +34,12 @@ const chooseGoal = (goal: TrainingGoal) => {
           <div class="program-photo photo-gain" />
           <div class="program-shade" />
           <div class="program-card-inner">
-            <div class="card-head"><span>02 / {{ $t('programs.goal') }}</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+            <div class="card-head"><span>02 / {{ $t('programs.goal') }}</span><span class="card-arrow" aria-hidden="true"><UiIcon name="arrow-up-right" /></span></div>
             <div class="card-bottom">
               <span class="card-mini-label">{{ $t('programs.mass.label') }}</span>
               <h3>{{ $t('programs.mass.title1') }}<br>{{ $t('programs.mass.title2') }}<span>.</span></h3>
               <p>{{ $t('programs.mass.description') }}</p>
-              <a href="#apply" data-goal="muscle-gain" class="card-action" @click="chooseGoal('muscle-gain')">{{ $t('programs.choose') }} <span>↗</span></a>
+              <a href="#apply" data-goal="muscle-gain" class="card-action" @click="chooseGoal('muscle-gain')">{{ $t('programs.choose') }} <UiIcon name="arrow-up-right" /></a>
             </div>
           </div>
         </article>

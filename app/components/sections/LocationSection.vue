@@ -55,12 +55,12 @@ const mapEmbedUrl = 'https://yandex.uz/map-widget/v1/?ll=64.455411%2C39.759678&z
             <a class="location-map-link location-map-link-primary" :href="yandexMapUrl" target="_blank" rel="noopener noreferrer">
               <span>Y</span>
               {{ $t('location.yandex') }}
-              <b aria-hidden="true">↗</b>
+              <b aria-hidden="true"><UiIcon name="arrow-up-right" /></b>
             </a>
             <a class="location-map-link" :href="googleMapUrl" target="_blank" rel="noopener noreferrer">
               <span>G</span>
               {{ $t('location.google') }}
-              <b aria-hidden="true">↗</b>
+              <b aria-hidden="true"><UiIcon name="arrow-up-right" /></b>
             </a>
           </div>
         </div>
