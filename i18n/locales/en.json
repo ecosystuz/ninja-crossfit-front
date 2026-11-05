@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "title": "NINJA CROSSFIT — go beyond your limits",
+    "description": "NINJA CROSSFIT — functional training, strength, endurance and daily progress. Choose your goal and book a workout.",
+    "ogDescription": "Strength begins with a decision. Functional training with NINJA CROSSFIT."
+  },
+  "language": { "label": "Choose language" },
+  "nav": {
+    "home": "Ninja Crossfit — home",
+    "philosophy": "Philosophy",
+    "training": "Training",
+    "coach": "Coach",
+    "location": "Location",
+    "contacts": "Contacts",
+    "start": "START TRAINING",
+    "apply": "SIGN UP",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNavigation": "Main navigation",
+    "mobileNavigation": "Mobile navigation",
+    "skip": "Skip to content"
+  },
+  "hero": {
+    "imageAlt": "Athlete during a strength workout",
+    "eyebrow": "YOUR STRENGTH. YOUR RULES.",
+    "title1": "BECOME",
+    "title2": "STRONGER",
+    "title3": "THAN YOU",
+    "description": "It does not matter where you start. What matters is what you are ready to do for your goal. Build strength, endurance and character.",
+    "apply": "BOOK A WORKOUT",
+    "learnMore": "LEARN MORE",
+    "note": "FUNCTIONAL TRAINING / NINJA CROSSFIT",
+    "scroll": "SCROLL DOWN",
+    "side": "NO LIMITS. NO EXCUSES. JUST WORK."
+  },
+  "ticker": {
+    "aria": "Strength, endurance, discipline, progress",
+    "strength": "STRENGTH",
+    "endurance": "ENDURANCE",
+    "discipline": "DISCIPLINE",
+    "progress": "PROGRESS"
+  },
+  "about": {
+    "label": "01 / WHO WE ARE",
+    "caption": "MORE THAN A GYM. A MINDSET.",
+    "title1": "THIS IS",
+    "title2": "WHERE CHARACTER",
+    "title3": "IS BUILT.",
+    "signature": "GO BEYOND YOUR LIMITS",
+    "lead": "Ninja CrossFit is where you challenge the person you were yesterday.",
+    "description": "We combine strength work, functional movement and endurance training. Everyone moves at their own pace, united by one philosophy — keep moving forward.",
+    "link": "EXPLORE TRAINING PROGRAMS",
+    "features": {
+      "self": { "title": "WORK ON YOURSELF", "text": "Every workout is another step toward your goal." },
+      "body": { "title": "TRAIN YOUR WHOLE BODY", "text": "Strength, coordination and endurance in one system." },
+      "rhythm": { "title": "FIND YOUR RHYTHM", "text": "Choose the days that work for you and move with confidence." }
+    }
+  },
+  "programs": {
+    "label": "02 / YOUR GOAL",
+    "caption": "CHOOSE YOUR DIRECTION",
+    "title1": "MOVE TOWARD",
+    "title2": "RESULTS.",
+    "intro": "Everyone starts somewhere. We will help you take the next step toward lightness, strength and confidence.",
+    "goal": "GOAL",
+    "choose": "CHOOSE THIS PROGRAM",
+    "weight": {
+      "label": "FITNESS AND ENDURANCE",
+      "title": "LOSE WEIGHT",
+      "description": "Move more, build endurance and work toward your best shape."
+    },
+    "mass": {
+      "label": "STRENGTH AND PROGRESS",
+      "title1": "BUILD",
+      "title2": "MUSCLE",
+      "description": "Develop strength and build muscle with a consistent system."
+    },
+    "footnote": "// Your program and workload are tailored to your fitness level and wellbeing."
+  },
+  "statement": {
+    "aria": "Motivation",
+    "label": "LESS TALK. MORE ACTION.",
+    "line1": "YOUR BIGGEST",
+    "line2": "RIVAL IS",
+    "line3": "YESTERDAY'S YOU.",
+    "cta": "ACCEPT THE CHALLENGE",
+    "vertical": "NINJA CROSSFIT® / KEEP PUSHING"
+  },
+  "coach": {
+    "label": "03 / YOUR MENTOR",
+    "caption": "TRAIN WITH YOUR GOAL IN FOCUS",
+    "badge": "SHOW UP. GET STRONGER.",
+    "kicker": "YOUR COACH",
+    "title1": "YOU CAN DO",
+    "title2": "MORE.",
+    "lead": "A big goal begins with the right movement. Come train, improve your technique and become stronger step by step.",
+    "profile": "COACH PROFILE",
+    "profileAria": "Coach khayotov_x on Instagram",
+    "cta": "TRAIN WITH THE COACH"
+  },
+  "steps": {
+    "label": "04 / HOW TO START",
+    "caption": "THE FIRST STEP MATTERS MOST",
+    "title1": "JUST",
+    "title2": "START.",
+    "items": {
+      "apply": { "title": "SEND A REQUEST", "text": "Tell us your name, phone number and the goal you want to reach." },
+      "days": { "title": "CHOOSE YOUR DAYS", "text": "Select the days of the week that work best for you." },
+      "start": { "title": "STEP UP TO THE LINE", "text": "Contact us, confirm the details and come to your workout." }
+    }
+  },
+  "location": {
+    "label": "05 / LOCATION",
+    "caption": "FIND US AND COME TRAIN",
+    "title1": "WE ARE",
+    "title2": "CLOSE.",
+    "intro": "We train at Mamont Fit — a convenient spot for everyone ready to grow stronger. Choose your map and build a route.",
+    "addressLabel": "TRAINING LOCATION",
+    "venue": "MAMONT FIT",
+    "city": "BUKHARA, UZBEKISTAN",
+    "description": "Open the map, plan your route and arrive a little before your first workout.",
+    "coordinatesLabel": "COORDINATES",
+    "mapTitle": "Mamont Fit location map",
+    "yandex": "YANDEX MAPS",
+    "google": "GOOGLE MAPS"
+  },
+  "apply": {
+    "label": "06 / JOIN US",
+    "title1": "READY TO",
+    "title2": "START?",
+    "intro": "The best time to begin is now. Leave your details, choose your goal and preferred days.",
+    "art": "NO MORE EXCUSES"
+  },
+  "form": {
+    "title": "WORKOUT REQUEST",
+    "name": "YOUR NAME",
+    "namePlaceholder": "What is your name?",
+    "phone": "PHONE NUMBER",
+    "age": "YOUR AGE",
+    "agePlaceholder": "For example, 22",
+    "goal": "YOUR MAIN GOAL",
+    "weightTitle": "LOSE WEIGHT",
+    "weightSubtitle": "Weight loss and endurance",
+    "massTitle": "BUILD MUSCLE",
+    "massSubtitle": "Strength and muscle mass",
+    "days": "PREFERRED TRAINING DAYS",
+    "daysHint": "You can select several days",
+    "consent": "I agree to the processing of the provided data so I can be contacted about my request.",
+    "submit": "PREPARE REQUEST",
+    "sending": "SENDING...",
+    "note": "Fields marked with an asterisk are required. You can send the completed request to us on Instagram.",
+    "invalidEndpoint": "Configure a secure HTTPS API address to send requests.",
+    "prepared": "REQUEST READY!",
+    "sent": "REQUEST SENT!",
+    "preparedDescription": "Copy the request and send it to the club on Instagram. Automatic submission is not connected yet.",
+    "sentDescription": "Thank you! Your details have been sent. You can also contact us on Instagram.",
+    "sendFailed": "The request could not be sent automatically. Copy it and send it to the club on Instagram.",
+    "copied": "Request copied! Open Instagram and paste it into a message to the club.",
+    "copyFailed": "Select and copy the request above manually, then send it to the club on Instagram.",
+    "copy": "COPY REQUEST",
+    "instagram": "OPEN INSTAGRAM",
+    "reset": "FILL IN AGAIN",
+    "errors": {
+      "name": "Enter a name between 2 and 80 characters.",
+      "phone": "Enter a valid phone number.",
+      "age": "Enter an age between 14 and 85.",
+      "goal": "Choose a training goal.",
+      "days": "Select at least one day.",
+      "consent": "Confirm your consent to data processing."
+    },
+    "message": {
+      "title": "New request — NINJA CROSSFIT",
+      "name": "Name",
+      "phone": "Phone",
+      "age": "Age",
+      "goal": "Goal",
+      "days": "Training days"
+    }
+  },
+  "goals": { "weight-loss": "Lose weight", "muscle-gain": "Build muscle" },
+  "days": { "mon": "MON", "tue": "TUE", "wed": "WED", "thu": "THU", "fri": "FRI", "sat": "SAT", "sun": "SUN" },
+  "footer": {
+    "tagline": "YOUR STRENGTH STARTS HERE.",
+    "instagram": "FOLLOW US ON INSTAGRAM",
+    "back": "Back to top",
+    "rights": "ALL RIGHTS RESERVED.",
+    "values": "DISCIPLINE / STRENGTH / PROGRESS",
+    "designed": "DESIGNED TO MOVE."
+  }
+}

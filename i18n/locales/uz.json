@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "title": "NINJA CROSSFIT — imkoniyatlaringdan oshib o't",
+    "description": "NINJA CROSSFIT — funksional mashg'ulotlar, kuch, chidamlilik va o'z ustingda ishlash. Maqsadingni tanla va mashg'ulotga yozil.",
+    "ogDescription": "Kuch qarordan boshlanadi. NINJA CROSSFIT bilan funksional mashg'ulotlar."
+  },
+  "language": { "label": "Tilni tanlash" },
+  "nav": {
+    "home": "Ninja Crossfit — bosh sahifa",
+    "philosophy": "Falsafa",
+    "training": "Mashg'ulotlar",
+    "coach": "Murabbiy",
+    "location": "Manzil",
+    "contacts": "Aloqa",
+    "start": "MASHG'ULOTNI BOSHLASH",
+    "apply": "YOZILISH",
+    "openMenu": "Menyuni ochish",
+    "closeMenu": "Menyuni yopish",
+    "mainNavigation": "Asosiy navigatsiya",
+    "mobileNavigation": "Mobil navigatsiya",
+    "skip": "Kontentga o'tish"
+  },
+  "hero": {
+    "imageAlt": "Kuch mashg'uloti paytidagi sportchi",
+    "eyebrow": "SENING KUCHING. SENING QOIDALARING.",
+    "title1": "O'ZINGDAN",
+    "title2": "KUCHLIROQ",
+    "title3": "BO'L",
+    "description": "Qayerdan boshlashing muhim emas. Maqsading uchun nimalarga tayyorliging muhim. Kuch, chidamlilik va xarakterni rivojlantir.",
+    "apply": "MASHG'ULOTGA YOZILISH",
+    "learnMore": "BATAFSIL",
+    "note": "FUNKSIONAL TRENING / NINJA CROSSFIT",
+    "scroll": "PASTGA TUSHING",
+    "side": "CHEGARASIZ. BAHONASIZ. FAQAT MEHNAT."
+  },
+  "ticker": {
+    "aria": "Kuch, chidamlilik, intizom, taraqqiyot",
+    "strength": "KUCH",
+    "endurance": "CHIDAMLILIK",
+    "discipline": "INTIZOM",
+    "progress": "TARAQQIYOT"
+  },
+  "about": {
+    "label": "01 / BIZ KIMMIZ",
+    "caption": "SHUNCHAKI ZAL EMAS. FIKRLASH TARZI.",
+    "title1": "BU YERDA",
+    "title2": "XARAKTER",
+    "title3": "YARALADI.",
+    "signature": "IMKONIYATLARINGDAN OSHIB O'T",
+    "lead": "Ninja CrossFit — kechagi o'zingga qarshi chiqadigan makon.",
+    "description": "Biz kuch mashqlari, funksional harakatlar va chidamlilik ustidagi ishni birlashtiramiz. Har kimning sur'ati har xil, falsafasi esa bitta — oldinga yurish.",
+    "link": "YO'NALISHLARNI KO'RISH",
+    "features": {
+      "self": { "title": "O'ZING USTINGDA ISHLA", "text": "Har bir mashg'ulot — maqsading sari navbatdagi qadam." },
+      "body": { "title": "BUTUN TANANI RIVOJLANTIR", "text": "Kuch, koordinatsiya va chidamlilik yagona tizimda." },
+      "rhythm": { "title": "O'Z RITMINGNI TOP", "text": "Qulay kunlarni tanla va ishonch bilan harakat qil." }
+    }
+  },
+  "programs": {
+    "label": "02 / SENING MAQSADING",
+    "caption": "O'Z YO'NALISHINGNI TANLA",
+    "title1": "NATIJA SARI",
+    "title2": "HARAKAT QIL.",
+    "intro": "Har kimning boshlanish nuqtasi bor. Biz yengillik, kuch va ishonch sari keyingi qadamni qo'yishga yordam beramiz.",
+    "goal": "MAQSAD",
+    "choose": "YO'NALISHNI TANLASH",
+    "weight": {
+      "label": "FORMA VA CHIDAMLILIK",
+      "title": "VAZN TASHLASH",
+      "description": "Ko'proq harakat qil, chidamlilikni oshir va formang ustida ishla."
+    },
+    "mass": {
+      "label": "KUCH VA TARAQQIYOT",
+      "title1": "MUSHAK",
+      "title2": "TO'PLASH",
+      "description": "Tizimli yondashuv bilan kuchni rivojlantir va mushak massasini oshir."
+    },
+    "footnote": "// Dastur va yuklama tayyorgarlik darajasi hamda holatingizga qarab tanlanadi."
+  },
+  "statement": {
+    "aria": "Motivatsiya",
+    "label": "KAMROQ SO'Z. KO'PROQ ISH.",
+    "line1": "ENG ASOSIY",
+    "line2": "RAQIBING —",
+    "line3": "KECHAGI O'ZING.",
+    "cta": "CHAQIRUVNI QABUL QIL",
+    "vertical": "NINJA CROSSFIT® / OLDINGA INTIL"
+  },
+  "coach": {
+    "label": "03 / USTOZ",
+    "caption": "MAQSADGA QARATILGAN MASHG'ULOT",
+    "badge": "KEL. KUCHLIROQ BO'L.",
+    "kicker": "SENING MURABBIYING",
+    "title1": "SEN KO'PROQ",
+    "title2": "QILA OLASAN.",
+    "lead": "Katta maqsad to'g'ri harakatdan boshlanadi. Mashg'ulotga kel, texnikani rivojlantir va qadamma-qadam kuchliroq bo'l.",
+    "profile": "MURABBIY PROFILI",
+    "profileAria": "Murabbiy khayotov_x Instagram profili",
+    "cta": "MURABBIYGA YOZILISH"
+  },
+  "steps": {
+    "label": "04 / QANDAY BOSHLASH",
+    "caption": "BIRINCHI QADAM — ENG MUHIMI",
+    "title1": "SHUNCHAKI",
+    "title2": "BOSHLA.",
+    "items": {
+      "apply": { "title": "ARIZA QOLDIR", "text": "Isming, telefon raqaming va erishmoqchi bo'lgan maqsadingni ko'rsat." },
+      "days": { "title": "KUNLARNI TANLA", "text": "Mashg'ulot uchun qulay bo'lgan hafta kunlarini belgila." },
+      "start": { "title": "STARTGA CHIQ", "text": "Biz bilan bog'lan, tafsilotlarni aniqlashtir va mashg'ulotga kel." }
+    }
+  },
+  "location": {
+    "label": "05 / MANZIL",
+    "caption": "BIZNI TOP VA MASHG'ULOTGA KEL",
+    "title1": "BIZ",
+    "title2": "YAQINMIZ.",
+    "intro": "Biz Mamont Fit'da mashq qilamiz — kuchliroq bo'lishga tayyorlar uchun qulay joy. Xaritani tanla va yo'nalish tuz.",
+    "addressLabel": "MASHG'ULOT MANZILI",
+    "venue": "MAMONT FIT",
+    "city": "BUXORO, O'ZBEKISTON",
+    "description": "Xaritani och, yo'nalish tuz va birinchi mashg'ulotdan biroz oldinroq kel.",
+    "coordinatesLabel": "KOORDINATALAR",
+    "mapTitle": "Mamont Fit joylashuv xaritasi",
+    "yandex": "YANDEX XARITALAR",
+    "google": "GOOGLE MAPS"
+  },
+  "apply": {
+    "label": "06 / BIZGA QO'SHIL",
+    "title1": "BOSHLASHGA",
+    "title2": "TAYYORMISAN?",
+    "intro": "Boshlash uchun eng yaxshi vaqt — hozir. Ma'lumotlaringni qoldir, maqsad va qulay kunlarni tanla.",
+    "art": "BAHONALAR TAMOM"
+  },
+  "form": {
+    "title": "MASHG'ULOTGA ARIZA",
+    "name": "ISMING",
+    "namePlaceholder": "Isming nima?",
+    "phone": "TELEFON RAQAMI",
+    "age": "YOSHING",
+    "agePlaceholder": "Masalan, 22",
+    "goal": "ASOSIY MAQSADING",
+    "weightTitle": "VAZN TASHLASH",
+    "weightSubtitle": "Vazn kamaytirish va chidamlilik",
+    "massTitle": "MUSHAK TO'PLASH",
+    "massSubtitle": "Kuch va mushak massasi",
+    "days": "QULAY MASHG'ULOT KUNLARI",
+    "daysHint": "Bir nechta kunni tanlash mumkin",
+    "consent": "Arizam bo'yicha bog'lanish uchun ko'rsatilgan ma'lumotlarni qayta ishlashga roziman.",
+    "submit": "ARIZANI TAYYORLASH",
+    "sending": "YUBORILMOQDA...",
+    "note": "Yulduzcha bilan belgilangan maydonlar majburiy. To'ldirilgan arizani Instagram orqali yuborish mumkin.",
+    "invalidEndpoint": "Arizalarni yuborish uchun xavfsiz HTTPS API manzilini sozlang.",
+    "prepared": "ARIZA TAYYOR!",
+    "sent": "ARIZA YUBORILDI!",
+    "preparedDescription": "Ariza matnini nusxalab, klubning Instagram sahifasiga yuboring. Avtomatik yuborish hozircha ulanmagan.",
+    "sentDescription": "Rahmat! Ma'lumotlar yuborildi. Zarur bo'lsa, Instagram orqali biz bilan bog'laning.",
+    "sendFailed": "Arizani avtomatik yuborib bo'lmadi. Matnni nusxalab, klubning Instagram sahifasiga yuboring.",
+    "copied": "Ariza nusxalandi! Instagramni ochib, klubga xabar sifatida yuboring.",
+    "copyFailed": "Yuqoridagi ariza matnini qo'lda belgilang va nusxalang, so'ng Instagram orqali yuboring.",
+    "copy": "ARIZANI NUSXALASH",
+    "instagram": "INSTAGRAMNI OCHISH",
+    "reset": "QAYTA TO'LDIRISH",
+    "errors": {
+      "name": "Ismni 2 tadan 80 tagacha belgi bilan kiriting.",
+      "phone": "To'g'ri telefon raqamini kiriting.",
+      "age": "14 dan 85 gacha bo'lgan yoshni kiriting.",
+      "goal": "Mashg'ulot maqsadini tanlang.",
+      "days": "Kamida bitta kunni belgilang.",
+      "consent": "Ma'lumotlarni qayta ishlashga rozilikni tasdiqlang."
+    },
+    "message": {
+      "title": "Yangi ariza — NINJA CROSSFIT",
+      "name": "Ism",
+      "phone": "Telefon",
+      "age": "Yosh",
+      "goal": "Maqsad",
+      "days": "Mashg'ulot kunlari"
+    }
+  },
+  "goals": { "weight-loss": "Vazn tashlash", "muscle-gain": "Mushak to'plash" },
+  "days": { "mon": "DU", "tue": "SE", "wed": "CH", "thu": "PA", "fri": "JU", "sat": "SH", "sun": "YA" },
+  "footer": {
+    "tagline": "SENING KUCHING SHU YERDAN BOSHLANADI.",
+    "instagram": "BIZ INSTAGRAMDA",
+    "back": "Yuqoriga qaytish",
+    "rights": "BARCHA HUQUQLAR HIMOYALANGAN.",
+    "values": "INTIZOM / KUCH / TARAQQIYOT",
+    "designed": "HARAKAT UCHUN YARATILGAN."
+  }
+}
