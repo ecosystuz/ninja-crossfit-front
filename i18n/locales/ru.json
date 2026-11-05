@@ -180,6 +180,7 @@
   },
   "goals": { "weight-loss": "Похудеть", "muscle-gain": "Набрать массу" },
   "days": { "mon": "ПН", "tue": "ВТ", "wed": "СР", "thu": "ЧТ", "fri": "ПТ", "sat": "СБ", "sun": "ВС" },
+  "audio": { "play": "Включить музыку", "pause": "Поставить музыку на паузу" },
   "footer": {
     "tagline": "ТВОЯ СИЛА НАЧИНАЕТСЯ ЗДЕСЬ.",
     "instagram": "МЫ В INSTAGRAM",

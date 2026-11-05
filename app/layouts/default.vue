@@ -10,5 +10,6 @@ useLandingEffects()
     <SiteHeader />
     <slot />
     <SiteFooter />
+    <BackgroundAudio />
   </div>
 </template>

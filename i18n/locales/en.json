@@ -180,6 +180,7 @@
   },
   "goals": { "weight-loss": "Lose weight", "muscle-gain": "Build muscle" },
   "days": { "mon": "MON", "tue": "TUE", "wed": "WED", "thu": "THU", "fri": "FRI", "sat": "SAT", "sun": "SUN" },
+  "audio": { "play": "Play music", "pause": "Pause music" },
   "footer": {
     "tagline": "YOUR STRENGTH STARTS HERE.",
     "instagram": "FOLLOW US ON INSTAGRAM",

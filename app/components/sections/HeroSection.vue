@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="hero-bottom container">
-      <span class="hero-bottom-note"><span class="square-icon">✦</span> {{ $t('hero.note') }}</span>
+      <span class="hero-bottom-note" style="transform: translateY(40px);"><span class="square-icon">✦</span> {{ $t('hero.note') }}</span>
       <a class="scroll-down" href="#about"><span>{{ $t('hero.scroll') }}</span><span class="down-circle" aria-hidden="true">↓</span></a>
     </div>
     <span class="hero-side-label" aria-hidden="true">{{ $t('hero.side') }}</span>

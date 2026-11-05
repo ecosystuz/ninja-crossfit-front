@@ -180,6 +180,7 @@
   },
   "goals": { "weight-loss": "Vazn tashlash", "muscle-gain": "Mushak to'plash" },
   "days": { "mon": "DU", "tue": "SE", "wed": "CH", "thu": "PA", "fri": "JU", "sat": "SH", "sun": "YA" },
+  "audio": { "play": "Musiqani yoqish", "pause": "Musiqani pauza qilish" },
   "footer": {
     "tagline": "SENING KUCHING SHU YERDAN BOSHLANADI.",
     "instagram": "BIZ INSTAGRAMDA",
